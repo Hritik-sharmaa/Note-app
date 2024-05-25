@@ -2,13 +2,19 @@ import React from "react";
 import Notes from "./Notes";
 import Addnote from "./Addnote";
 
-const NotesList = ({ notes, addnote }) => {
+const NotesList = ({ notes, addNote, deleteNote }) => { 
   return (
-    <div className="grid gap-4 grid-cols-autofit-minmax">
+    <div className="grid gap-4 grid-cols-autofit-minmax ">
       {notes.map((note) => (
-        <Notes id={note.id} text={note.text} date={note.date}/>
+        <Notes
+          key={note.id} 
+          text={note.text}
+          date={note.date}
+          deleteNote={deleteNote}
+          id={note.id}
+        />
       ))}
-      <Addnote addnote={addnote}/>
+      <Addnote addnote={addNote} />
     </div>
   );
 };

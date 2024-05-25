@@ -18,16 +18,16 @@ const Addnote = ({ addnote }) => {
     }
   };
   return (
-    <div className="bg-emerald-500 rounded-xl p-4 min-h-44 flex flex-col justify-between">
+    <div className="bg-emerald-500 rounded-xl p-4 min-h-44 flex flex-col justify-between dark-notes">
       <textarea
         cols="10"
         rows="8"
         placeholder="Type to add note..."
-        className="border-none outline-none bg-emerald-500 text-white placeholder:text-slate-50 resize-none"
+        className="border-none outline-none bg-emerald-500 text-white placeholder:text-slate-50 resize-none dark-notes"
         onChange={handleTextChange}
         value={noteText}></textarea>
       <div className="flex items-center justify-between">
-        <small className="text-white">
+        <small className="text-white dark-notes">
           {characterLength - noteText.length} remaining
         </small>
         <button

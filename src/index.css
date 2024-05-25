@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark-mode {
+  background-color: #0d1b2a;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode .toggle-mode {
+  color: white;
+}
+
+.dark-mode .dark-container,
+.dark-mode input {
+  background-color: #1b263b;
+  color: white;
+}
+
+.dark-mode .dark-note {
+  background-color: #fff134;
+}
+
+.dark-mode .dark-notes {
+  background-color: #637588;
+}
