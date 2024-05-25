@@ -3,6 +3,7 @@ import { nanoid } from "nanoid";
 import NotesList from "./componets/NotesList";
 import Input from "./componets/Input";
 import Header from "./componets/Header";
+import Footer from "./componets/Footer";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -53,6 +54,7 @@ function App() {
             addNote={addNote}
             deleteNote={deleteNote} // Ensure the correct prop name is used
           />
+          <Footer />
         </div>
       </div>
     </>
