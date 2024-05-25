@@ -12,6 +12,9 @@
 - `TailWind CSS`
 - `React Icons`
 
+# LIVE NOW ⚡
+https://note-app-hritik-sharma.vercel.app/
+
 # Demo Video 🎥
 
 https://github.com/Hritik-sharmaa/Note-app/assets/130376335/93b3ebee-5e1d-48a5-9302-63f946ebc861
