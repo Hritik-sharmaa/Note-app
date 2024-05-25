@@ -1,8 +1,18 @@
-# React + Vite
+# Notes App
+- A app to add notes 📒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About the project 🎯
+- A simple website where you can take down the notes and save them.
+- It also have search bar where you can search the notes.
+- It also have dark mode.
+- When you add add note it also shows the number of space you have.
 
-Currently, two official plugins are available:
+# Technologies 🛠
+- `React js`
+- `TailWind CSS`
+- `React Icons`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Demo Video 🎥
+
+https://github.com/Hritik-sharmaa/Note-app/assets/130376335/93b3ebee-5e1d-48a5-9302-63f946ebc861
+
