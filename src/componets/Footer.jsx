@@ -3,8 +3,8 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center mt-20 mb-10">
-      <span>
+    <div className="flex items-center justify-center mt-20 mb-10 dark-text">
+      <span className="">
         Created by{" "}
         <a
           href="https://github.com/Hritik-sharmaa/Note-app"

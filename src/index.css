@@ -27,3 +27,7 @@
 .dark-mode .dark-notes {
   background-color: #637588;
 }
+
+.dark-mode .dark-text {
+  color: white;
+}
